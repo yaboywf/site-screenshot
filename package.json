@@ -1,0 +1,34 @@
+{
+	"name": "@yaboywf/site-screenshot",
+	"version": "1.0.0",
+	"type": "module",
+	"bin": {
+		"site-screenshot": "./src/cli.js"
+	},
+	"scripts": {
+        "test": "node --test",
+        "verify": "node --check src/cli.js && npm test"
+    },
+	"exports": {
+		".": {
+			"types": "./src/index.d.ts",
+			"import": "./src/index.js"
+		}
+	},
+	"files": [
+		"src"
+	],
+	"engines": {
+		"node": ">=20"
+	},
+	"dependencies": {
+		"@playwright/browser-chromium": "^1.63.0",
+		"playwright-core": "^1.63.0"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
+	"allowScripts": {
+		"@playwright/browser-chromium@1.63.0": true
+	}
+}
