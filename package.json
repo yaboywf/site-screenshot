@@ -5,6 +5,7 @@
 	"bin": {
 		"site-screenshot": "src/cli.js"
 	},
+	"license": "MIT",
 	"scripts": {
 		"test": "node --test",
 		"verify": "node --check src/cli.js && npm test"
