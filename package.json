@@ -3,12 +3,12 @@
 	"version": "1.0.0",
 	"type": "module",
 	"bin": {
-		"site-screenshot": "./src/cli.js"
+		"site-screenshot": "src/cli.js"
 	},
 	"scripts": {
-        "test": "node --test",
-        "verify": "node --check src/cli.js && npm test"
-    },
+		"test": "node --test",
+		"verify": "node --check src/cli.js && npm test"
+	},
 	"exports": {
 		".": {
 			"types": "./src/index.d.ts",
