@@ -25,9 +25,6 @@
 		"@playwright/browser-chromium": "^1.63.0",
 		"playwright-core": "^1.63.0"
 	},
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com"
-	},
 	"allowScripts": {
 		"@playwright/browser-chromium@1.63.0": true
 	}
