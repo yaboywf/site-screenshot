@@ -1,6 +1,6 @@
 {
 	"name": "@yaboywf/site-screenshot",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"type": "module",
 	"bin": {
 		"site-screenshot": "src/cli.js"
